@@ -1,0 +1,16 @@
+PODS:
+  - TMFileSystem (0.1.0)
+
+DEPENDENCIES:
+  - TMFileSystem (from `../`)
+
+EXTERNAL SOURCES:
+  TMFileSystem:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TMFileSystem: 81dfc22fec46f31dc6205c6933f2a2724e68fa89
+
+PODFILE CHECKSUM: a1fc26f933b46251ce2ee4ce33710bdfab98bf56
+
+COCOAPODS: 1.6.1

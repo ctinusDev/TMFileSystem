@@ -1,0 +1,6 @@
+framework module Pods_TMFileSystem_Tests {
+  umbrella header "Pods-TMFileSystem_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

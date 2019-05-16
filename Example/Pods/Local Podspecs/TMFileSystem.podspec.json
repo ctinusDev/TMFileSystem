@@ -1,0 +1,22 @@
+{
+  "name": "TMFileSystem",
+  "version": "0.1.0",
+  "summary": "A short description of TMFileSystem.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1158433594@qq.com/TMFileSystem",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1158433594@qq.com": "tomychen@tencent.com"
+  },
+  "source": {
+    "git": "https://github.com/1158433594@qq.com/TMFileSystem.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TMFileSystem/Classes/**/*"
+}

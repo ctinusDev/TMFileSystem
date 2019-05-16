@@ -1,0 +1,6 @@
+framework module TMFileSystem {
+  umbrella header "TMFileSystem-umbrella.h"
+
+  export *
+  module * { export * }
+}
