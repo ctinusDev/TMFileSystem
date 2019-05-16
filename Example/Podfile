@@ -1,9 +1,10 @@
+source 'https://github.com/ctinusDev/Specs.git'
 use_frameworks!
 
 platform :ios, '8.0'
 
 target 'TMFileSystem_Example' do
-  pod 'TMFileSystem', :path => '../'
+  pod 'TMFileSystem'
 
   target 'TMFileSystem_Tests' do
     inherit! :search_paths

@@ -2,15 +2,15 @@ PODS:
   - TMFileSystem (0.1.0)
 
 DEPENDENCIES:
-  - TMFileSystem (from `../`)
+  - TMFileSystem
 
-EXTERNAL SOURCES:
-  TMFileSystem:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/ctinusDev/Specs.git:
+    - TMFileSystem
 
 SPEC CHECKSUMS:
-  TMFileSystem: 81dfc22fec46f31dc6205c6933f2a2724e68fa89
+  TMFileSystem: 9c2e338a2485bbed2ab30e755ad2d48e3435ac2d
 
-PODFILE CHECKSUM: a1fc26f933b46251ce2ee4ce33710bdfab98bf56
+PODFILE CHECKSUM: 6cea7b68b0a763139bf82b1c003253385cec47ef
 
 COCOAPODS: 1.6.1

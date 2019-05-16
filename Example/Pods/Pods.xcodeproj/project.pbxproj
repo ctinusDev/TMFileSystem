@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		212306DE1B1FD9442313C390F76C9DB8 /* Pods-TMFileSystem_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AFF179D3F809E55A4736D895CD96DC /* Pods-TMFileSystem_Example-dummy.m */; };
-		33AA068CAB48E9E00C2688F75B528726 /* TMFileSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1D65FEAEF873CFD12B039AD08822C9 /* TMFileSystem.m */; };
-		3A13B12A320AD26D9B9A026B58B4A324 /* TMFileSystem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AEBC6482842C2A7794C2FE814CF9234 /* TMFileSystem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33AA068CAB48E9E00C2688F75B528726 /* TMFileSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B55262D9528E39E194C1E911CA48B32 /* TMFileSystem.m */; };
+		3A13B12A320AD26D9B9A026B58B4A324 /* TMFileSystem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7602AE7E7B99F783AD215BAEB48843 /* TMFileSystem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48EE5940B315B5B05827F408D975EA23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		6207DFE3B6F1319B3E80F622BA84232F /* Pods-TMFileSystem_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D404B53EE3D1E8607CD64D8C1F9578B /* Pods-TMFileSystem_Tests-dummy.m */; };
-		62A9EE0614C4FA3EA25B295353CA0698 /* TMFilePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C739E64CB2128B8EBCD06DD7BC0A80 /* TMFilePreview.m */; };
-		6415F0415ACAEAD46D3428D02CBA593C /* TMFileSystem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB103BF2D6C7C46159C862BC88E7B9F /* TMFileSystem-dummy.m */; };
-		71BBFC20D2C38E62CF62D8757B4D19CB /* TMFileSystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1799DB824934B9C89AC483B3214A2C /* TMFileSystemViewController.m */; };
-		77554A243E0EDBBD83986155F0E53E75 /* TMFileSystemViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 852BC7850C1C8BA86EE10F1B7F847D30 /* TMFileSystemViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62A9EE0614C4FA3EA25B295353CA0698 /* TMFilePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C837BC07134AC750012DEA751949DA /* TMFilePreview.m */; };
+		6415F0415ACAEAD46D3428D02CBA593C /* TMFileSystem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6B39568E077A1C0F0A27822D403C3E /* TMFileSystem-dummy.m */; };
+		71BBFC20D2C38E62CF62D8757B4D19CB /* TMFileSystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB1918683235074AB2D92183E63627D /* TMFileSystemViewController.m */; };
+		77554A243E0EDBBD83986155F0E53E75 /* TMFileSystemViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F8F3C28809E17C6061054B022F03575 /* TMFileSystemViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		799D47E5C6A0A6C61A0FD1F5DA2D08A9 /* Pods-TMFileSystem_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F65FE944DBEC32A03CCABA6F48A8575 /* Pods-TMFileSystem_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82F966273020D6680F743C5BE1E875C5 /* TMFileSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = F0645C24B2AF1D7BBF8AF3B93332C68A /* TMFileSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A720A131BC149EAAA358017A70DC35A /* TMFilePreview.h in Headers */ = {isa = PBXBuildFile; fileRef = 0146D0AE233BE1023FDBBBCB221B3306 /* TMFilePreview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82F966273020D6680F743C5BE1E875C5 /* TMFileSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C547D2AADAA3D362C59E8A28E9342F9 /* TMFileSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A720A131BC149EAAA358017A70DC35A /* TMFilePreview.h in Headers */ = {isa = PBXBuildFile; fileRef = 1933E49857E1496B36590FB6D8956EFD /* TMFilePreview.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE643E133E5750279B0D75E637C5CE2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		CF059E863400E5078F5A2561971335D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		E00BC69AB8DD9BE12FD9B4A356DE2AD8 /* Pods-TMFileSystem_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD52BFF891570EE3DB767211E5BC3B02 /* Pods-TMFileSystem_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,43 +42,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0146D0AE233BE1023FDBBBCB221B3306 /* TMFilePreview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMFilePreview.h; path = TMFileSystem/Classes/TMFilePreview.h; sourceTree = "<group>"; };
 		0781C7EBEEC1CCD2B343A8D9435BEB9D /* Pods-TMFileSystem_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMFileSystem_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		07C739E64CB2128B8EBCD06DD7BC0A80 /* TMFilePreview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMFilePreview.m; path = TMFileSystem/Classes/TMFilePreview.m; sourceTree = "<group>"; };
 		09A17D7601B963E70AE2810CCB74E8D7 /* Pods-TMFileSystem_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMFileSystem_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		164CC424F82B977AF8EA30DF54586CB0 /* TMFileSystem.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TMFileSystem.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		18CEB3BC49FA0BAD21AE5D48D6CE0BA0 /* TMFileSystem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TMFileSystem.modulemap; sourceTree = "<group>"; };
+		12267CA8AC0B9CAC7543E88E0ACF0D1E /* TMFileSystem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMFileSystem-prefix.pch"; sourceTree = "<group>"; };
+		1933E49857E1496B36590FB6D8956EFD /* TMFilePreview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMFilePreview.h; path = TMFileSystem/Classes/TMFilePreview.h; sourceTree = "<group>"; };
+		1B55262D9528E39E194C1E911CA48B32 /* TMFileSystem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMFileSystem.m; path = TMFileSystem/Classes/TMFileSystem.m; sourceTree = "<group>"; };
 		200D3392904DAAA0EA59D5963BEB7297 /* Pods-TMFileSystem_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TMFileSystem_Example-frameworks.sh"; sourceTree = "<group>"; };
+		20BCB379419B7C69E893204EB87ECD0F /* TMFileSystem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMFileSystem.xcconfig; sourceTree = "<group>"; };
 		3CA5B82133985EDF71DBBC0EE2AACF2F /* Pods-TMFileSystem_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TMFileSystem_Example.modulemap"; sourceTree = "<group>"; };
 		3CCC63385AFFC66B111A193312443191 /* Pods-TMFileSystem_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMFileSystem_Example-Info.plist"; sourceTree = "<group>"; };
 		3F266BB0C41F28734A0EEB2C7633ECEB /* Pods-TMFileSystem_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMFileSystem_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F8F3C28809E17C6061054B022F03575 /* TMFileSystemViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMFileSystemViewController.h; path = TMFileSystem/Classes/TMFileSystemViewController.h; sourceTree = "<group>"; };
 		46AFF179D3F809E55A4736D895CD96DC /* Pods-TMFileSystem_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TMFileSystem_Example-dummy.m"; sourceTree = "<group>"; };
 		4F65FE944DBEC32A03CCABA6F48A8575 /* Pods-TMFileSystem_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TMFileSystem_Example-umbrella.h"; sourceTree = "<group>"; };
 		5A2E860CC88E4CA37F701F47BE86CCAC /* Pods_TMFileSystem_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TMFileSystem_Tests.framework; path = "Pods-TMFileSystem_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AEBC6482842C2A7794C2FE814CF9234 /* TMFileSystem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMFileSystem-umbrella.h"; sourceTree = "<group>"; };
 		5D404B53EE3D1E8607CD64D8C1F9578B /* Pods-TMFileSystem_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TMFileSystem_Tests-dummy.m"; sourceTree = "<group>"; };
 		635779085F5C0AE1BA9C5963D3EB658C /* Pods-TMFileSystem_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMFileSystem_Tests-Info.plist"; sourceTree = "<group>"; };
 		686BF46D05E1B2985E6DBC2969CE7F97 /* Pods-TMFileSystem_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMFileSystem_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6AB103BF2D6C7C46159C862BC88E7B9F /* TMFileSystem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TMFileSystem-dummy.m"; sourceTree = "<group>"; };
-		6B3AD7A550A484A75F42F9E5D42A6BA7 /* TMFileSystem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMFileSystem-prefix.pch"; sourceTree = "<group>"; };
 		6D45B394E0EC265A62FD85E38B1A2E96 /* Pods-TMFileSystem_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TMFileSystem_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7914823AAC9A9658744AC6212DE4072F /* TMFileSystem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TMFileSystem-Info.plist"; sourceTree = "<group>"; };
-		852BC7850C1C8BA86EE10F1B7F847D30 /* TMFileSystemViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMFileSystemViewController.h; path = TMFileSystem/Classes/TMFileSystemViewController.h; sourceTree = "<group>"; };
-		8A1D65FEAEF873CFD12B039AD08822C9 /* TMFileSystem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMFileSystem.m; path = TMFileSystem/Classes/TMFileSystem.m; sourceTree = "<group>"; };
+		7C547D2AADAA3D362C59E8A28E9342F9 /* TMFileSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMFileSystem.h; path = TMFileSystem/Classes/TMFileSystem.h; sourceTree = "<group>"; };
+		7EB1918683235074AB2D92183E63627D /* TMFileSystemViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMFileSystemViewController.m; path = TMFileSystem/Classes/TMFileSystemViewController.m; sourceTree = "<group>"; };
+		7F7602AE7E7B99F783AD215BAEB48843 /* TMFileSystem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMFileSystem-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9E08000C7D77506E371112C4FB2794 /* Pods-TMFileSystem_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TMFileSystem_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9DB045C88853429688CAABE44177B990 /* Pods_TMFileSystem_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TMFileSystem_Example.framework; path = "Pods-TMFileSystem_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29C9EFDEB54E977B7CE75C13BEEE785 /* Pods-TMFileSystem_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TMFileSystem_Tests.modulemap"; sourceTree = "<group>"; };
-		B2F3EDE563D64F81D97A1458ACB527BD /* TMFileSystem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMFileSystem.xcconfig; sourceTree = "<group>"; };
-		B696CE587AC1D0852A3AE27E9790B93D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AF6B39568E077A1C0F0A27822D403C3E /* TMFileSystem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TMFileSystem-dummy.m"; sourceTree = "<group>"; };
 		BD52BFF891570EE3DB767211E5BC3B02 /* Pods-TMFileSystem_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TMFileSystem_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C64027236247475E4BCDF6213845D447 /* Pods-TMFileSystem_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TMFileSystem_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D1CFAC962C616873D103974431B8654D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D410F91E25A6EEA18CA458D932A7FC21 /* TMFileSystem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TMFileSystem-Info.plist"; sourceTree = "<group>"; };
 		DFFE8FE30D9C874ACF002A2F80DD4AC6 /* Pods-TMFileSystem_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TMFileSystem_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F0645C24B2AF1D7BBF8AF3B93332C68A /* TMFileSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMFileSystem.h; path = TMFileSystem/Classes/TMFileSystem.h; sourceTree = "<group>"; };
+		E8C837BC07134AC750012DEA751949DA /* TMFilePreview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMFilePreview.m; path = TMFileSystem/Classes/TMFilePreview.m; sourceTree = "<group>"; };
 		F1D4C5AF0EC282E3C7559B2F06D1A423 /* TMFileSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TMFileSystem.framework; path = TMFileSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC1799DB824934B9C89AC483B3214A2C /* TMFileSystemViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMFileSystemViewController.m; path = TMFileSystem/Classes/TMFileSystemViewController.m; sourceTree = "<group>"; };
+		F7DD4481443B9DA73EC377C45D187C03 /* TMFileSystem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TMFileSystem.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1ED23C9D1FC909494E0AAB5509B3EF94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BAF09243D6CBD99461DE4568EB893B5 /* TMFileSystem */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		44A2F0CAA2CAD773B7EDBAB7BBB6CD03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,20 +124,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65FE9ECEA8C684B65A8432484E2C77EB /* TMFileSystem */ = {
+		8C2A38155E2151D5DAFDBE8322901745 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0146D0AE233BE1023FDBBBCB221B3306 /* TMFilePreview.h */,
-				07C739E64CB2128B8EBCD06DD7BC0A80 /* TMFilePreview.m */,
-				F0645C24B2AF1D7BBF8AF3B93332C68A /* TMFileSystem.h */,
-				8A1D65FEAEF873CFD12B039AD08822C9 /* TMFileSystem.m */,
-				852BC7850C1C8BA86EE10F1B7F847D30 /* TMFileSystemViewController.h */,
-				FC1799DB824934B9C89AC483B3214A2C /* TMFileSystemViewController.m */,
-				B2CCC5ADB07F2B76223D728D00F26A4D /* Pod */,
-				BAD754014E6A0834B6C58F7CCF456020 /* Support Files */,
+				F7DD4481443B9DA73EC377C45D187C03 /* TMFileSystem.modulemap */,
+				20BCB379419B7C69E893204EB87ECD0F /* TMFileSystem.xcconfig */,
+				AF6B39568E077A1C0F0A27822D403C3E /* TMFileSystem-dummy.m */,
+				D410F91E25A6EEA18CA458D932A7FC21 /* TMFileSystem-Info.plist */,
+				12267CA8AC0B9CAC7543E88E0ACF0D1E /* TMFileSystem-prefix.pch */,
+				7F7602AE7E7B99F783AD215BAEB48843 /* TMFileSystem-umbrella.h */,
 			);
-			name = TMFileSystem;
-			path = ../..;
+			name = "Support Files";
+			path = "../Target Support Files/TMFileSystem";
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -143,44 +146,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A970611280FA8FEA89AB964D17068703 /* Development Pods */ = {
+		9BAF09243D6CBD99461DE4568EB893B5 /* TMFileSystem */ = {
 			isa = PBXGroup;
 			children = (
-				65FE9ECEA8C684B65A8432484E2C77EB /* TMFileSystem */,
+				1933E49857E1496B36590FB6D8956EFD /* TMFilePreview.h */,
+				E8C837BC07134AC750012DEA751949DA /* TMFilePreview.m */,
+				7C547D2AADAA3D362C59E8A28E9342F9 /* TMFileSystem.h */,
+				1B55262D9528E39E194C1E911CA48B32 /* TMFileSystem.m */,
+				3F8F3C28809E17C6061054B022F03575 /* TMFileSystemViewController.h */,
+				7EB1918683235074AB2D92183E63627D /* TMFileSystemViewController.m */,
+				8C2A38155E2151D5DAFDBE8322901745 /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B2CCC5ADB07F2B76223D728D00F26A4D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D1CFAC962C616873D103974431B8654D /* LICENSE */,
-				B696CE587AC1D0852A3AE27E9790B93D /* README.md */,
-				164CC424F82B977AF8EA30DF54586CB0 /* TMFileSystem.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		BAD754014E6A0834B6C58F7CCF456020 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				18CEB3BC49FA0BAD21AE5D48D6CE0BA0 /* TMFileSystem.modulemap */,
-				B2F3EDE563D64F81D97A1458ACB527BD /* TMFileSystem.xcconfig */,
-				6AB103BF2D6C7C46159C862BC88E7B9F /* TMFileSystem-dummy.m */,
-				7914823AAC9A9658744AC6212DE4072F /* TMFileSystem-Info.plist */,
-				6B3AD7A550A484A75F42F9E5D42A6BA7 /* TMFileSystem-prefix.pch */,
-				5AEBC6482842C2A7794C2FE814CF9234 /* TMFileSystem-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TMFileSystem";
+			name = TMFileSystem;
+			path = TMFileSystem;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A970611280FA8FEA89AB964D17068703 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1ED23C9D1FC909494E0AAB5509B3EF94 /* Pods */,
 				44A2F0CAA2CAD773B7EDBAB7BBB6CD03 /* Products */,
 				FF28FA94392A3983E32F25E54EF2CA1C /* Targets Support Files */,
 			);
@@ -583,7 +569,7 @@
 		};
 		64071AEDE5320BF72BDFB922D91DFCEB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2F3EDE563D64F81D97A1458ACB527BD /* TMFileSystem.xcconfig */;
+			baseConfigurationReference = 20BCB379419B7C69E893204EB87ECD0F /* TMFileSystem.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -714,7 +700,7 @@
 		};
 		EC97158B3CC89EC2ED39484640DA9D4E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2F3EDE563D64F81D97A1458ACB527BD /* TMFileSystem.xcconfig */;
+			baseConfigurationReference = 20BCB379419B7C69E893204EB87ECD0F /* TMFileSystem.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
