@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of TMFileSystem.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1158433594@qq.com/TMFileSystem",
+  "homepage": "https://github.com/ctinusDev/TMFileSystem",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "1158433594@qq.com": "tomychen@tencent.com"
   },
   "source": {
-    "git": "https://github.com/1158433594@qq.com/TMFileSystem.git",
+    "git": "https://github.com/ctinusDev/TMFileSystem.git",
     "tag": "0.1.0"
   },
   "platforms": {

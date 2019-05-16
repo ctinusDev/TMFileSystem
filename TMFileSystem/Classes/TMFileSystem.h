@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithFilePath:(NSString *)filePath;
 
+- (void) removeItemAtIndex:(NSInteger)index;
+
 - (void) refresh;
 @end
 

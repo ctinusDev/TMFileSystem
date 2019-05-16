@@ -83,6 +83,21 @@
     return fileInfo;
 }
 
+-(void)removeItemAtIndex:(NSInteger)index
+{
+    if (self.fileInfo.count <= index) {
+        return;
+    }
+
+    NSDictionary *file = self.fileInfo[index];
+    NSString *filePath = file[NSURLPathKey];
+    [[NSFileManager defaultManager] removeItemAtPath:filePath error:nil];
+    
+    NSMutableArray *fileInfo = [_fileInfo mutableCopy];
+    [fileInfo removeObject:file];
+    _fileInfo = [fileInfo copy];
+}
+
 - (void) refresh
 {
     _fileInfo = nil;
