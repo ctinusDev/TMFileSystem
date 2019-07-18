@@ -59,7 +59,13 @@
             if ([name isEqualToString:@"_extras"]) {
                 [directoryEnumerator skipDescendants];
             } else {
-                subPathCount = @([[[NSFileManager defaultManager] contentsOfDirectoryAtPath:fileURL.path error:nil] count]);
+                NSDirectoryEnumerator *directoryEnumerator =
+                [[NSFileManager defaultManager] enumeratorAtURL:fileURL
+                                     includingPropertiesForKeys:sourceKeys
+                                                        options:NSDirectoryEnumerationSkipsSubdirectoryDescendants | NSDirectoryEnumerationSkipsHiddenFiles
+                                                   errorHandler:nil];
+                
+                subPathCount = @(directoryEnumerator.allObjects.count);
             }
         } else {
             [fileURL getResourceValue:&fileSize forKey:NSURLTotalFileSizeKey error:nil];

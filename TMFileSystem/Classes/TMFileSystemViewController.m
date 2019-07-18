@@ -83,9 +83,10 @@
     
     if ([file[NSURLIsDirectoryKey] boolValue]) {
         TMFileSystem *fileSystem = [[TMFileSystem alloc] initWithFilePath:filePath];
-        TMFileSystemViewController *subFileSystem = [[TMFileSystemViewController alloc] init];
-        subFileSystem.fileSystem = fileSystem;
-        [self.navigationController pushViewController:subFileSystem animated:YES];
+        TMFileSystemViewController *subFileSystemController = [[TMFileSystemViewController alloc] init];
+        subFileSystemController.fileSystem = fileSystem;
+        subFileSystemController.title = [fileSystem.filePath lastPathComponent];
+        [self.navigationController pushViewController:subFileSystemController animated:YES];
     } else {
         NSURL *fileUrl = [NSURL fileURLWithPath:filePath];
         
