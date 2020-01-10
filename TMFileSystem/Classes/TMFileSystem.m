@@ -35,6 +35,8 @@
                             NSURLIsDirectoryKey,
                             NSURLTotalFileSizeKey,
                             NSURLFileResourceTypeKey,
+                            NSURLCreationDateKey,
+                            NSURLContentModificationDateKey,
                             ];
 
     NSDirectoryEnumerator *directoryEnumerator =
@@ -52,9 +54,14 @@
         NSNumber *fileSize = nil;
         NSString *fileType = nil;
         NSNumber *subPathCount = nil;
+        NSDate *createDate = nil;
+        NSDate *lastModisyDate = nil;
         
         [fileURL getResourceValue:&isDirectory forKey:NSURLIsDirectoryKey error:nil];
         [fileURL getResourceValue:&name forKey:NSURLNameKey error:nil];
+        [fileURL getResourceValue:&createDate forKey:NSURLCreationDateKey error:nil];
+        [fileURL getResourceValue:&lastModisyDate forKey:NSURLContentModificationDateKey error:nil];
+        
         if ([isDirectory boolValue]) {
             if ([name isEqualToString:@"_extras"]) {
                 [directoryEnumerator skipDescendants];
@@ -77,6 +84,8 @@
         file[NSURLTotalFileSizeKey] = fileSize;
         file[NSURLFileResourceTypeKey] = fileType;
         file[NSURLPathKey] = fileURL.path;
+        file[NSURLCreationDateKey] = createDate;
+        file[NSURLContentModificationDateKey] = lastModisyDate;
         file[@"subCount"] = subPathCount;
         
         [fileInfo addObject:file];
